@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
     <body>
@@ -11,7 +13,7 @@
           <h1>Alexandra's AI Poem Generator</h1>
         </hearder>
         <main>
-          <form>
+          <form id="poem-generator-form">
             <input
               type="text"
               placeholder="Enter the topic of your poem"
@@ -22,11 +24,7 @@
             />
             <input type="submit" class="submit-button" />
           </form>
-          <div class="poem">
-            Love is like a river,
-            <br />
-            A never ending stream.
-          </div>
+          <div class="poem" id="poem"></div>
         </main>
 
         <footer>
