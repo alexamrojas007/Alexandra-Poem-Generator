@@ -60,6 +60,10 @@ a {
   border-radius: 15px;
 }
 
+.poem strong {
+  color: #88aedb;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
